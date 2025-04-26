@@ -35,9 +35,9 @@ https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=100&api_key=
 #### │    ├── main.dart         # Точка входа
 #### ├── pubspec.yaml        # Зависимости проекта
 
-my_app6/ /n
-├── lib/
-│   ├── cubit/
+my_app6/  
+├── lib/  
+│   ├── cubit/  
 │   │   ├── nasa_cubit.dart  # Cubit для управления состоянием
 │   ├── models/
 │   │   ├── camera_model.dart    # Модели данных Camera
