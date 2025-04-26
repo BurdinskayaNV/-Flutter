@@ -1,3 +1,4 @@
+# my_app6
 # Бурдинская Наталья ВМК-22
 # Лабораторная работа №6. Взаимодействие с сетью.
 Задание: Вариант 3. Марсоход – opportunity, сол (марсианский день) – 100, изменение состояния на основе Cubit.
@@ -18,3 +19,18 @@ https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=100&api_key=
 4. Проанализировать приходящие данные. 
 5. Разработать мобильное приложение отражающее максимальное количество данных с API и при этом сохраняющее эргономику, красоту и удобство использования. 
 
+my_app6/
+├── lib/
+│   ├── cubit/
+│   │   ├── nasa_cubit.dart  # Cubit для управления состоянием
+│   ├── models/
+│   │   ├── camera_model.dart    # Модели данных Camera
+│   │   ├── nasa_response_model.dart    # 
+│   │   ├── photo_model.dart    # Модели данных Photo
+│   │   ├── rover_model.dart    # Модели данных Rover
+│   ├── requests/
+│   │   ├── nasa_api.dart  # Запросы с фотографиями
+│   ├── screens/
+│   │   ├── nasa_photos_screen.dart  # Экран с фотографиями
+│   ├── main.dart         # Точка входа
+├── pubspec.yaml        # Зависимости проекта
