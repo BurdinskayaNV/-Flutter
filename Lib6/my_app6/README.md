@@ -25,7 +25,7 @@ my_app6/
 │   │   ├── nasa_cubit.dart  # Cubit для управления состоянием  
 │   ├── models/  
 │   │   ├── camera_model.dart    # Модели данных Camera  
-│   │   ├── nasa_response_model.dart    #   
+│   │   ├── nasa_response_model.dart    # Модель nasa ответа   
 │   │   ├── photo_model.dart    # Модели данных Photo  
 │   │   ├── rover_model.dart    # Модели данных Rover  
 │   ├── requests/  
