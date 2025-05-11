@@ -2,10 +2,10 @@
 # Бурдинская Наталья ВМК-22
 # Итоговая Лабораторная работа №7. Работа по разработке мобильных приложений на Dart и Flutter.
 ### Задание: Вариант 3.
-Погода + Расчет скорости ветра
-API: AccuWeather.
-Расчет: Преобразование м/с <-> км/ч.
-Доп. функция: Открыть карту ветров.
+Погода + Расчет скорости ветра  
+API: AccuWeather.  
+Расчет: Преобразование м/с <-> км/ч.  
+Доп. функция: Открыть карту ветров.  
 
 ### Цель работы:
 Разработать мобильное приложение, включающее:
@@ -15,25 +15,25 @@ API: AccuWeather.
 4.	Экран с расчетами (скорость ветра) и сохранением истории.
 5.	Дополнительную функцию (открыть карту ветров).
 
-my_app7/
-├── assets/ # папка с иконками
-│ ├── back.png
-│ ├── calculate.png
-│ ├── person.png
-│ ├── search.png
-│ ├── weather.png
-│ ├── wind.png
-├── lib/
-│ ├── cubit/
-│ │ ├── weather_cubit.dart # Cubit для управления состоянием
-│ ├── models/
-│ │ ├── weather_model.dart # Модели данных погоды
-│ ├── screens/
-│ │ ├── calculations_screen.dart # Экран расчёта скорости ветра
-│ │ ├── developer_screen.dart # Экран с информацией о разработчике
-│ │ ├── weather_screen.dart # Главный экран
-│ ├── services/
-│ │ ├── storage_service.dart # Управляет локальными данными пользователя
-│ │ ├── weather_service.dart # Взаимодействие с внешним API погоды
-│ ├── main.dart # Точка входа
-├── pubspec.yaml # Зависимости проекта
+my_app7/  
+├── assets/ # папка с иконками  
+│ ├── back.png  
+│ ├── calculate.png  
+│ ├── person.png  
+│ ├── search.png  
+│ ├── weather.png  
+│ ├── wind.png  
+├── lib/  
+│ ├── cubit/  
+│ │ ├── weather_cubit.dart # Cubit для управления состоянием  
+│ ├── models/  
+│ │ ├── weather_model.dart # Модели данных погоды  
+│ ├── screens/  
+│ │ ├── calculations_screen.dart # Экран расчёта скорости ветра  
+│ │ ├── developer_screen.dart # Экран с информацией о разработчике  
+│ │ ├── weather_screen.dart # Главный экран  
+│ ├── services/  
+│ │ ├── storage_service.dart # Управляет локальными данными пользователя  
+│ │ ├── weather_service.dart # Взаимодействие с внешним API погоды  
+│ ├── main.dart # Точка входа  
+├── pubspec.yaml # Зависимости проекта  
